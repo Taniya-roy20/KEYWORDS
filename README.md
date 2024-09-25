@@ -19,13 +19,30 @@ A Pod is the smallest and most basic deployable unit in Kubernetes (K8s). It rep
 A Kubernetes environment consists of a control plane (master), a distributed storage system for keeping the cluster state consistent (etcd), and a number of cluster nodes (Kubelets).
 ![image](https://github.com/user-attachments/assets/470ef796-7577-4b4f-8842-c8e2a0a13142)
 # About Minikube
-Minikube is a lightweight tool that allows you to run a Kubernetes (K8s) cluster locally on your machine. It is designed for development and testing purposes. Minikube runs a single-node Kubernetes cluster inside a virtual machine (VM) on your local machine or directly in containers (on systems with containerization support). It provides the full Kubernetes functionality, allowing you to test and develop containerized applications without requiring a remote or cloud infrastructure.
+Minikube is a tool that sets up a Kubernetes environment on a local PC or laptop. This tool provides an easy means of creating a local Kubernetes environment on any Linux, Mac, or Windows system, where you can experiment with and test Kubernetes deployments.
+![image](https://github.com/user-attachments/assets/b6b29514-fa38-49fc-9acd-0565b7444012)
+
 
 **SINGLE NODE CLUSTER**
 
 A single-node cluster in Kubernetes refers to a cluster where both the control plane (which manages the cluster) and the worker node (which runs applications) are on the same machine. It runs all the components of Kubernetes, including the API server, scheduler, and Kubelet, but on just one physical or virtual node.
 <br>
 # How to install Minikube with Ubuntu
+1.**STEP 1:** Connect to the Server via PuTTY
+
+Open PuTTY
+<br>
+Enter the Hostname or IP Address
+<br>
+Click Open
+<br>
+Login to the server by writing ubuntu
+<br>
+<br>
+2.**STEP 2:** Install docker using the following command
+<br>
+curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash
+
 
 
 
